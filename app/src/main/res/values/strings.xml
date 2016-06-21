@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AppDefinedButtonExample</string>
+    <string name="menu_video">Video File</string>
+    <string name="menu_play">Play</string>
+    <string name="menu_pause">Pause</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="pick_video_title">Choose video for playback</string>
+    <string name="pick_video_button">Select video</string>
+    <string name="no_filemanager_installed">No compatible file manager found</string>
+    <string name="media_error">Problems playing Video</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+
+    <!-- Preferences -->
+    <string name="preferences_activity">Preferences</string>
+    <string name="pref_title_video">Folder</string>
+    <string name="pref_summary_video">Specify video file (%1$s)</string>
+    <string name="pref_default_video">"/sdcard"</string>
+
+    <string name="pref_title_loop">Loop</string>
+    <string name="pref_summary_loop">Play video continuously (%1$s)</string>
+    <string name="pref_default_loop">true</string>
+    <string name="file_browser_title">Select Video File</string>
+    <string name="zero_time">0:00:00</string>
+</resources>

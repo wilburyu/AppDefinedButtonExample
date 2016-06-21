@@ -1,0 +1,116 @@
+{
+  "app_name": "ODG App-Defined Button Example",
+  "package_name": "appdefinedbuttonexample.odg.com.appdefinedbuttonexample",
+  "button_sets": [
+    {
+      "position": 1,
+      "buttons": [
+        {
+          "name": "btn1",
+          "isSelected" : true,
+          "buttonRes" : 1000,
+          "buttonRes_off" : 100,
+          "sub_buttons": [
+            {
+              "name": "sub_btn1\nX2",
+              "action": "com.dg.sub_intent",
+              "extra": "some value1"
+            },
+            {
+              "name": "sub_btn2",
+              "action": "com.dg.sub_intent",
+              "extra": "some value2",
+              "isSelected" : true,
+              "buttonRes" : 1000,
+              "buttonRes_off" : 100
+            }
+          ]
+        },
+        {
+          "name": "btn2",
+          "action": "com.odg.intent",
+          "extra": "open"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "buttons": [
+        {
+          "name": "ubtn1",
+          "buttonRes" : 1003,
+          "buttonRes_off" : 103,
+          "sub_buttons": [
+            {
+              "name": "sub_btn3",
+              "action": "com.dg.sub_intent",
+              "extra": "some value3"
+            },
+            {
+              "name": "sub_btn4",
+              "action": "com.dg.sub_intent",
+              "extra": "some value4"
+            }
+          ]
+        },
+        {
+          "name": "ubtn2",
+          "buttonRes" : 1002,
+          "buttonRes_off" : 102,
+          "sub_buttons": [
+            {
+              "name": "sub_btn5",
+              "action": "com.dg.sub_intent",
+              "extra": "some value5"
+            },
+            {
+              "name": "sub_btn6",
+              "action": "com.dg.sub_intent",
+              "extra": "some value6"
+            }
+          ]
+        },
+        {
+          "name": "PREVIEW",
+          "sub_buttons": [
+            {
+              "name": "sub_btn10",
+              "action": "com.dg.sub_intent",
+              "extra": "some value10"
+            },
+            {
+              "name": "sub_btn11",
+              "action": "com.dg.sub_intent",
+              "extra": "some value11"
+            }
+          ]
+        },
+        {
+          "name": "btn4",
+          "action": "com.odg.intent",
+          "extra": "close"
+        },
+        {
+          "name": "btn5",
+          "action": "com.odg.intent",
+          "extra": "close"
+        },
+        {
+          "name": "btn6",
+          "action": "com.odg.intent",
+          "extra": "close"
+        },
+        {
+          "name": "btn7",
+          "action": "com.odg.intent",
+          "extra": "close"
+        },
+        {
+          "name": "btn8",
+          "action": "com.odg.intent",
+          "extra": "close"
+        }
+      ]
+    }
+  ]
+}

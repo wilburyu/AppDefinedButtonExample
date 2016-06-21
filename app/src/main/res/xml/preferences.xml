@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.osterhoutgroup.videoplayer" >
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_default_video"
+        android:key="PREF_VIDEO"
+        android:summary="@string/pref_summary_video"
+        android:title="@string/pref_title_video" />
+
+    <CheckBoxPreference
+        android:defaultValue="@string/pref_default_loop"
+        android:key="PREF_LOOP"
+        android:summary="@string/pref_summary_loop"
+        android:title="@string/pref_title_loop" />
+
+</PreferenceScreen>
