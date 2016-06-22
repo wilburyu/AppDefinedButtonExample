@@ -3,13 +3,13 @@
 Instead of using navigation buttons such as up/down/left/right, Reticle Remote framework offers functionalities for an Android application to define its own button set in the Reticle Remote app.
 
 Libraries & Dependencies:
-a). com.osterhoutgroup.api.ext.jar
-b). buttons.xml
+>a). com.osterhoutgroup.api.ext.jar
+>b). buttons.xml
 
 There are three types of button set:
 
 1). Video button type:
-> Once an application reports it is video related and programmatically calls our API, launchVideoPlayerController(). Reticle Remote app will pop up the video controller.
+> If an application reports it is video related by programmatically calling our API, launchVideoPlayerController(), Reticle Remote app will pop up the video controller.
 
 2). Music button type:
 > Same as video button type. Once an app calls our API, setMusicPlayerState(), with specific parameters, Reticle Remote app will pop up a music controller.
